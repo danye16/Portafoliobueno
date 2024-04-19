@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<InfoPersonalServices>();
 builder.Services.AddSingleton<ProyectosServices>();
 
-//para que agarre la api en angular
+//para que agarre la api en angular hola
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AnyClient", policy =>
